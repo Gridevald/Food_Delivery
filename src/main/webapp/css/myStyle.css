@@ -1,0 +1,32 @@
+body {
+	background-color: #ffebcc;
+}
+hr {
+	border: none;
+	color: red;
+	background-color: red;
+	height: 1px;
+}
+table {
+	margin: auto;
+}
+.main_frame {
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	font-size: 3em;
+	text-decoration: underline;
+	color: #ff8000;
+	margin: auto;
+}
+.content_table {
+	width: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+.content_td {
+	vertical-align: top;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
