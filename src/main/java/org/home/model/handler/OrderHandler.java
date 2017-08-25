@@ -43,7 +43,7 @@ public class OrderHandler {
 
             StringBuilder sb = new StringBuilder();
             for (Map.Entry<Dish, Integer> entity : dishData.entrySet()) {
-                sb.append("{").append(entity.getKey().getName()).append("[").append(entity.getValue()).append("]}");
+                sb.append("{").append(entity.getKey().getId()).append("[").append(entity.getValue()).append("]}");
             }
 
             Order order = new Order(customer, sb.toString());
