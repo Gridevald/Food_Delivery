@@ -1,8 +1,5 @@
 package org.home.filter;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
@@ -16,11 +13,8 @@ import java.io.IOException;
 @WebFilter(urlPatterns = {"/controller/*"})
 public class SessionTimeoutFilter implements Filter {
 
-    Logger logger;
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        logger = LogManager.getLogger();
     }
 
     @Override
